@@ -1,0 +1,87 @@
+.body{
+    display: flex;
+    padding: 100px;
+    min-height: 60vh;
+    justify-content: space-between;
+    background-image: url("../img/bgg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.intro h4{
+    color: var(--textcolor);
+    font-size: 30px;
+}
+.intro h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.intro p{
+    color: rgb(121, 117, 117);
+    font-family: Arial;
+}
+
+.intro button{
+    background-color: var(--textcolor);
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 0 0 10px var(--shadowcolor);
+
+}
+button a{
+    font-size: 17px;
+}
+button a:hover{
+    color: var(--textcolor);
+}
+.intro button:hover{
+    background-color: var(--shadowcolor);
+    color: var(--textcolor);
+}
+.photo img{
+    width: 500px;
+    border: 15px solid var(--textcolor);
+}
+.photo img:hover{
+    border: 15px solid rgb(97, 60, 131);
+}
+.social-con{
+    display: flex ;
+    margin-top: 60px;  
+}
+.line{
+    margin-left: -200px;
+    width: 200px;
+    height: 5px;
+    margin-top: 40px;
+    background-color: var(--textcolor);
+    
+}
+
+.icons{
+    display: flex;
+}
+
+.icons h2 {
+    width: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 50%;
+    padding: 10px;  
+}
+.icons a{
+    color: black;
+}
+.icons h2:hover{
+    background-color: var(--textcolor);
+    color: white;
+}

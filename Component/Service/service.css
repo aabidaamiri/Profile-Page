@@ -1,0 +1,69 @@
+
+/* third page*/
+.body3{
+    background-color: rgba(238, 237, 237, 0.466);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.charts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 130px;
+    gap: 30px;
+}.ab{
+    margin-top: 50px;
+}
+.first:hover p{
+    color: black;
+}
+.first:hover {
+    background-color: var(--textcolor);
+    color: white;
+}
+.first:hover .img{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+.first:hover h1{
+    font-size: 1.6rem;
+    color: white;
+}
+.first{
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 20px;
+    box-shadow: 0 0 10px var(--shadowcolor);
+}
+
+.first .img{
+    width: 60px;
+    margin: 0 auto;
+    font-size: 40px;
+    padding-top: 7px;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+}
+.first h1{
+    font-weight: 600;
+    color: var(--textcolor);
+}
+.first p{
+    color: rgb(102, 99, 99);
+}
+
+@media (max-width: 600px) {
+    .charts{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 30px 50px;
+    gap: 30px;
+}
+    .ab h5{
+        font-size: 20px !important;
+    }
+    .ab h1{
+        font-size: 22px !important;
+    }
+}
+

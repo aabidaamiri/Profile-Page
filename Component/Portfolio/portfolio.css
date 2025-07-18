@@ -1,0 +1,53 @@
+.body4{
+    min-height: 86vh;
+    margin-top: 50px;
+}
+.ab {
+    width: 100%;
+    text-align: center;
+}
+
+.ab h5{
+    font-size: 25px;
+    margin: 0;
+}
+.ab h1{
+    margin: 5px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.ab span{
+    color: var(--textcolor);
+}
+
+.photo-area{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: 30px auto;
+    row-gap: 30px;
+}
+.photo-area img{
+    padding: 5px;
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    border: 0.1px solid var(--textcolor);
+}
+.photo-area img:hover{
+    transform: scale(1.1);
+    transition: ease-in-out 0.4s;
+}
+
+@media (max-width: 600px){
+    .photo-area{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: auto;
+    row-gap: 15px;
+}
+.photo-area img{
+    margin: auto;
+}
+}

@@ -1,0 +1,41 @@
+.banner{
+    height: 310px;
+    width: 100%;
+    background-image: url('../img/ab.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 0, 128, 0.205);
+}
+.text-banner{
+    text-align: center;
+    padding-top: 40px;
+    position: relative;
+}
+.button-banner{
+    margin-top: 60px;
+}
+.btn-cv{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: rgba(128, 0, 128, 0.205);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.486);
+    border-radius: 5px;
+}
+.btn-cv:hover{
+    background-color: white;
+    color: var(--textcolor);
+}

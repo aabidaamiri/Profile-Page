@@ -1,0 +1,103 @@
+:root{
+    --textcolor: rgba(119, 45, 189);
+    --shadowcolor: rgb(226, 222, 222);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    /*filter:blur(5px)*/
+}
+
+header{
+    display: flex;
+    background-color: var(--textcolor);
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 5px 15px rgb(209, 206, 206);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+h3{
+    font-size: 1.5rem;
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+li:hover{
+    color: rgba(48, 47, 47, 0.842);
+}
+
+header .menu-icon{
+    width: 50px;
+    display: none;
+    color: white;
+}
+
+.menu-icon{
+    font-size: 1.4rem;
+}
+
+.open .mobile-menu {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.mobile-menu{
+    display: none;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    height: calc(100vh - 55px);
+    width: 100%;
+    background-color: white;
+}
+.mobile-menu li{
+    background-color: rgba(202, 202, 202, 0.281);
+    margin: 4px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.mobile-menu a{
+    color: var(--textcolor);
+}
+
+@media only screen and (max-width: 933px){
+    .mobile-menu{
+    display: block;
+}
+    nav{
+        display: none;
+    }
+    header{
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    header .menu-icon{
+        display: block;
+        
+    }
+    .body{
+        padding: 20px;
+    }
+    .photo{
+        display: none;
+    }
+}
