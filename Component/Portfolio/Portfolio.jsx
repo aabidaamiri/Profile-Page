@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import photo1 from '../img/pro1.png'
-import photo2 from '../img/pa2.jpg'
+import photo2 from '../img/pro2.png'
 import photo3 from '../img/pa3.jpeg'
 import photo4 from '../img/pa4.jpeg'
 import photo5 from '../img/pa5.jpeg'
@@ -21,7 +21,7 @@ const Portfolio = () => {
                 <div class="photo-area">
                     
                     <a href="https://my-portfolio-one-omega-31.vercel.app/" target='_blank'><img src={photo1} alt="" /></a>
-                    <img src={photo2} alt="" />
+                    <a href="https://profile-page-one-cyan.vercel.app/" target='_blank'><img src={photo2} alt="" /></a>
                     <img src={photo3} alt="" />
                     <img src={photo4} alt="" />
                     <img src={photo5} alt="" />
